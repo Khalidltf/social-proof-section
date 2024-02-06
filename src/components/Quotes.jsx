@@ -14,8 +14,6 @@ const Quotes = (props) => {
           <p className="quote">{quote}</p>
         </blockquote>
       </li>
-      <li></li>
-      <li></li>
     </>
   );
 };
