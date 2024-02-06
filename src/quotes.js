@@ -1,6 +1,6 @@
-import colton from "../public/images/image-colton.jpg";
-import irene from "../public/images/image-irene.jpg";
-import anne from "../public/images/image-anne.jpg";
+import colton from "/images/image-colton.jpg";
+import irene from "/images/image-irene.jpg";
+import anne from "/images/image-anne.jpg";
 
 export default [
   {

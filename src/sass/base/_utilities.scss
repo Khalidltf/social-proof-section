@@ -1,0 +1,27 @@
+.container {
+  max-width: 70rem;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.split {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+
+  @media (min-width: 50em) {
+    flex-direction: row;
+  }
+
+  .flex-group {
+    margin-left: 0.625rem;
+  }
+}
+
+.a-center {
+  align-items: center;
+}

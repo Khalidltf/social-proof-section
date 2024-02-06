@@ -1,0 +1,20 @@
+:root {
+  --clr-primary-dark: hsl(300, 43%, 22%);
+  --clr-primary-pink: hsl(333, 80%, 67%);
+
+  --clr-neutral-dark: hsl(303, 10%, 53%);
+  --clr-neutral-light: hsl(300, 24%, 96%);
+  --clr-neutral-white: hsl(0, 0%, 100%);
+
+  --ff-primary: "spartan", sans-serif;
+
+  --fs-400: 0.8125rem;
+  --fs-500: 0.9625rem;
+  --fs-900: 2rem;
+
+  --br: 0.5rem;
+
+  @media (min-width: 50em) {
+    --fs-900: 3rem;
+  }
+}

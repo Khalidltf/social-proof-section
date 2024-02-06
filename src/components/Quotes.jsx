@@ -1,6 +1,5 @@
 const Quotes = (props) => {
-
-  const {img, name, status, quote} = props
+  const { img, name, status, quote } = props;
   return (
     <>
       <li>
@@ -9,7 +8,7 @@ const Quotes = (props) => {
             <img src={img} alt="" />
             <div className="flex-group">
               <p className="name">{name}</p>
-              <p className="status" >{status}</p>
+              <p className="status">{status}</p>
             </div>
           </div>
           <p className="quote">{quote}</p>
@@ -18,8 +17,7 @@ const Quotes = (props) => {
       <li></li>
       <li></li>
     </>
-  )
-}
+  );
+};
 
-
-export default Quotes
+export default Quotes;
